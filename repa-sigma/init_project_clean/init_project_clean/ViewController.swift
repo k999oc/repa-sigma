@@ -11,9 +11,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .white
+        setupUI()
     }
 
+    private func setupUI() {
+        let label = UILabel()
+        label.text = "Hello from code!"
+        label.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(label)
 
+        NSLayoutConstraint.activate([
+            label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            label.centerYAnchor.constraint(equalTo: view.centerYAnchor)
+        ])
+    }
 }
 
