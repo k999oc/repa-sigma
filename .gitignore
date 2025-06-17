@@ -16,3 +16,5 @@ build/*
 *.perspectivev3
 !default.perspectivev3
 !default.xcworkspace
+core_cpu.xcodeproj/project.pbxproj
+core_cpu/Info.plist
