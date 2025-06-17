@@ -16,3 +16,4 @@ build/*
 *.perspectivev3
 !default.perspectivev3
 !default.xcworkspace
+core_cpu/Info.plist
