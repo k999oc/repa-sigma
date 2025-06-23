@@ -39,3 +39,4 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Сохранение данных при уходе в фон
     }
 }
+let wss = "ded"
