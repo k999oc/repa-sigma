@@ -7,32 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		802B2B6A2E096FE800C8973B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B2B602E096FE800C8973B /* AppDelegate.swift */; };
-		802B2B6B2E096FE800C8973B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B2B642E096FE800C8973B /* SceneDelegate.swift */; };
+		802B2B782E099B7C00C8973B /* init_project_clean.app in Resources */ = {isa = PBXBuildFile; fileRef = 802B2B772E099B7C00C8973B /* init_project_clean.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		802B2B602E096FE800C8973B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		802B2B642E096FE800C8973B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80446C6B2DEC8B84005A6ACD /* init_project_clean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = init_project_clean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802B2B772E099B7C00C8973B /* init_project_clean.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = init_project_clean.app; sourceTree = "<group>"; };
+		802B2B812E099FA000C8973B /* init_project_clean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = init_project_clean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		80446C7D2DEC8B85005A6ACD /* Exceptions for "init_project_clean" folder in "init_project_clean" target */ = {
+		802B2B832E099FF400C8973B /* Exceptions for "Resources" folder in "init_project_clean" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				"/Localized: LaunchScreen.storyboard",
+				Info/Info.plist,
 			);
 			target = 80446C6A2DEC8B84005A6ACD /* init_project_clean */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		80446C6D2DEC8B84005A6ACD /* init_project_clean */ = {
+		802B2B752E099B2200C8973B /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		802B2B7C2E099BDF00C8973B /* Modules */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		802B2B7F2E099D0000C8973B /* Resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				80446C7D2DEC8B85005A6ACD /* Exceptions for "init_project_clean" folder in "init_project_clean" target */,
+				802B2B832E099FF400C8973B /* Exceptions for "Resources" folder in "init_project_clean" target */,
 			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80446C6D2DEC8B84005A6ACD /* init_project_clean */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
 			path = init_project_clean;
 			sourceTree = "<group>";
 		};
@@ -52,17 +66,19 @@
 		80446C622DEC8B84005A6ACD = {
 			isa = PBXGroup;
 			children = (
-				802B2B602E096FE800C8973B /* AppDelegate.swift */,
-				802B2B642E096FE800C8973B /* SceneDelegate.swift */,
+				802B2B752E099B2200C8973B /* App */,
 				80446C6D2DEC8B84005A6ACD /* init_project_clean */,
 				80446C6C2DEC8B84005A6ACD /* Products */,
+				802B2B7C2E099BDF00C8973B /* Modules */,
+				802B2B7F2E099D0000C8973B /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
 		80446C6C2DEC8B84005A6ACD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80446C6B2DEC8B84005A6ACD /* init_project_clean.app */,
+				802B2B772E099B7C00C8973B /* init_project_clean.app */,
+				802B2B812E099FA000C8973B /* init_project_clean.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,13 +99,16 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				802B2B752E099B2200C8973B /* App */,
+				802B2B7C2E099BDF00C8973B /* Modules */,
+				802B2B7F2E099D0000C8973B /* Resources */,
 				80446C6D2DEC8B84005A6ACD /* init_project_clean */,
 			);
 			name = init_project_clean;
 			packageProductDependencies = (
 			);
 			productName = init_project_clean;
-			productReference = 80446C6B2DEC8B84005A6ACD /* init_project_clean.app */;
+			productReference = 802B2B812E099FA000C8973B /* init_project_clean.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,6 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802B2B782E099B7C00C8973B /* init_project_clean.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802B2B6A2E096FE800C8973B /* AppDelegate.swift in Sources */,
-				802B2B6B2E096FE800C8973B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,10 +176,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD9PK9Q4KC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = init_project_clean/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/int_project_clean/Resources/Info/Info.plist\n\n";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -190,10 +208,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD9PK9Q4KC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = init_project_clean/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/int_project_clean/Resources/Info/Info.plist\n\n";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -252,6 +270,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,6 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -316,6 +336,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -324,10 +345,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
