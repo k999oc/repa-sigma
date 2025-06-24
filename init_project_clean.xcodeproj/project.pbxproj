@@ -6,14 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		802B2B6A2E096FE800C8973B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B2B602E096FE800C8973B /* AppDelegate.swift */; };
-		802B2B6B2E096FE800C8973B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B2B642E096FE800C8973B /* SceneDelegate.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		802B2B602E096FE800C8973B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		802B2B642E096FE800C8973B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		80446C6B2DEC8B84005A6ACD /* init_project_clean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = init_project_clean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -21,7 +14,7 @@
 		80446C7D2DEC8B85005A6ACD /* Exceptions for "init_project_clean" folder in "init_project_clean" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = 80446C6A2DEC8B84005A6ACD /* init_project_clean */;
 		};
@@ -52,8 +45,6 @@
 		80446C622DEC8B84005A6ACD = {
 			isa = PBXGroup;
 			children = (
-				802B2B602E096FE800C8973B /* AppDelegate.swift */,
-				802B2B642E096FE800C8973B /* SceneDelegate.swift */,
 				80446C6D2DEC8B84005A6ACD /* init_project_clean */,
 				80446C6C2DEC8B84005A6ACD /* Products */,
 			);
@@ -141,8 +132,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802B2B6A2E096FE800C8973B /* AppDelegate.swift in Sources */,
-				802B2B6B2E096FE800C8973B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,7 +147,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD9PK9Q4KC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = init_project_clean/Info.plist;
+				INFOPLIST_FILE = init_project_clean/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
@@ -190,7 +179,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FD9PK9Q4KC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = init_project_clean/Info.plist;
+				INFOPLIST_FILE = init_project_clean/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
