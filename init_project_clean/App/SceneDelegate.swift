@@ -19,13 +19,23 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         let window = UIWindow(windowScene: windowScene)
         
+        
+        // тут я добавил кнопку задачи в таббар 
         let tasksVC = TasksViewController()
         let tasksNavVC = UINavigationController(rootViewController: tasksVC)
         tasksNavVC.tabBarItem = UITabBarItem(title: "Задачи",
                                              image: UIImage(systemName: "square.stack"),
                                              selectedImage: UIImage(systemName: "square.stack.fill"))
+        // тут я добавил кнопку настройки в таббар
+        let settingsVC = SettingsViewController()
+        let settingsNavVC = UINavigationController(rootViewController: settingsVC)
+        settingsNavVC.tabBarItem = UITabBarItem(title: "Настройки",
+                                                image: UIImage(systemName: "gearshape"),
+                                                selectedImage: UIImage(systemName: "gearshape.fill"))
+        
+
         let tabBarController = UITabBarController()
-        tabBarController.viewControllers = [tasksNavVC]
+        tabBarController.viewControllers = [tasksNavVC,settingsNavVC]
         
         window.rootViewController = tabBarController
         self.window = window
